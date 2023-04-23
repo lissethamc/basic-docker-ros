@@ -26,6 +26,7 @@ Docker puede ser utilizado con diferentes distribuciones de ROS, algunas de las 
 * ROS2 Dasing Diademata
 * ROS2 ELoquent Elusor
 * ROS2 Fosy Fitzroy
+
 Entre otros
 
 Es necesario primero asegurarnos que la imagen de Docker es compatible con la distribución de Linux que estamos usando, aunque las imágenes de Docker para ROS suelen ser para una distribucion de Linux en especifica como Ubuntu.
