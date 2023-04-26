@@ -5,7 +5,7 @@
 
 * Activar la virtualización desde BIOS
 * Instalar [Docker Desktop](https://www.docker.com/products/docker-desktop/) para Windows, se requiere reiniciar después de su instalación.
-* Actualizar el kernel de WSL poniendo en cmd el comando `wsl --update`
+* Actualizar el kernel de WSL poniendo en cmd el comando `wsl --update`. Es probable que sea necesario reiniciar despuès de actualizar el kernel.
   
   Hasta este punto, la virtualización y el kernel de WSL son requisitos necesarios para la inicialización de WSL, si están correctamente configurados Docker Desktop iniciará correctamente sin mostrar alertas.
   
