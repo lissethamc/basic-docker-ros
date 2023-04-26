@@ -1,6 +1,6 @@
 # Gazebo en Docker para Windows
 
-##### Prerrequisitos:
+#### Prerrequisitos:
 
 * Activar la virtualización desde BIOS
 * Instalar [Docker Desktop](https://www.docker.com/products/docker-desktop/) para Windows, se requiere reiniciar después de su instalación.
