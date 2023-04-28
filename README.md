@@ -82,6 +82,16 @@ docker run hello-world
 ```
 Esto nos descarga una imagen de prueba y la ejecuta en un contenedor de Docker, mostrando su correcto funcionamiento.
 
+###### Instalación de Docker en Windows
+
+* Activar la virtualización desde BIOS
+
+* Instalar [Docker Desktop](https://www.docker.com/products/docker-desktop/) para Windows, se requiere reiniciar después de su instalación.
+
+* Actualizar el kernel de WSL poniendo en `cmd` el comando `wsl --update`. Es probable que sea necesario reiniciar después de actualizar el kernel.
+  
+  Hasta este punto, la virtualización y el kernel de WSL son requisitos necesarios para la inicialización de **Docker Desktop**, si están correctamente configurado, iniciará correctamente sin mostrar alertas.
+
 ###### Descargar y correr una imagen de ROS en Docker
 
 Para poder trabajar con ROS, necesitamos una imagen de Docker, es decir un sistema operativo que tenga pre instalado ROS. Podemos descargar una imagen desde Docker Hub, Por ejemplo, podemos descargar la última imagen de ROS Melodic, corremos el siguiente comando en una terminal (es probable que estos comandos necesiten permisos de superusuario):
