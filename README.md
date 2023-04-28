@@ -37,7 +37,7 @@ Es posible utilizar Docker con prácticamente cualquier distribución de Linux y
 
 **Nota**: No es necesario tener instalado ROS de antemano en el sistema host para poder correrlo en un entorno Docker, ese es el objetivo de instalar Docker
 
-##### Instalación de Docker en Linux
+#### Instalación de Docker en Linux
 
 Primero debemos comprobar si tenemos instalado Docker, para ello ejecutamos el siguiente comando en una terminal
 
@@ -82,7 +82,7 @@ docker run hello-world
 ```
 Esto nos descarga una imagen de prueba y la ejecuta en un contenedor de Docker, mostrando su correcto funcionamiento.
 
-##### Instalación de Docker en Windows
+#### Instalación de Docker en Windows
 
 * Activar la virtualización desde BIOS
 
