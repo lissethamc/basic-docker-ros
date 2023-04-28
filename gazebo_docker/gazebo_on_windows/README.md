@@ -9,7 +9,7 @@
   
   Hasta este punto, la virtualización y el kernel de WSL son requisitos necesarios para la inicialización de **Docker Desktop**, si están correctamente configurado, iniciará correctamente sin mostrar alertas.
   
-* Instalar [Xming X Server](https://sourceforge.net/projects/xming/) para Windows **Al finalizar la instalación, seleccionar la opción "Public Access" para permitir el acceso a Xming desde otros equipos**
+* Instalar [Xming X Server](https://sourceforge.net/projects/xming/) para Windows **Al finalizar la instalación, seleccionar la opción "Public Access" para permitir el acceso a Xming desde otros equipos, al ser los contenedores entornos virtuales, son considerados otros equipos**
 
 #### Implementación
 
