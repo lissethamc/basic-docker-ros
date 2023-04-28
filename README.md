@@ -37,7 +37,7 @@ Es posible utilizar Docker con prácticamente cualquier distribución de Linux y
 
 **Nota**: No es necesario tener instalado ROS de antemano en el sistema host para poder correrlo en un entorno Docker, ese es el objetivo de instalar Docker
 
-###### Instalación de Docker en Linux
+##### Instalación de Docker en Linux
 
 Primero debemos comprobar si tenemos instalado Docker, para ello ejecutamos el siguiente comando en una terminal
 
@@ -82,7 +82,7 @@ docker run hello-world
 ```
 Esto nos descarga una imagen de prueba y la ejecuta en un contenedor de Docker, mostrando su correcto funcionamiento.
 
-###### Instalación de Docker en Windows
+##### Instalación de Docker en Windows
 
 * Activar la virtualización desde BIOS
 
@@ -93,6 +93,8 @@ Esto nos descarga una imagen de prueba y la ejecuta en un contenedor de Docker, 
   Hasta este punto, la virtualización y el kernel de WSL son requisitos necesarios para la inicialización de **Docker Desktop**, si están correctamente configurado, iniciará correctamente sin mostrar alertas.
 
 ###### Descargar y correr una imagen de ROS en Docker
+
+**Nota**: Estos comandos pueden ser implementados tanto en **Windows** desde `cmd` como desde **Linux** habiendo hecho los pasos anteriores para el SO correspondiente. Para Linux es probable que necesite permisos de super usuario, para Windows no es necesario, simplemente basta con omitir `sudo` para los comandos.
 
 Para poder trabajar con ROS, necesitamos una imagen de Docker, es decir un sistema operativo que tenga pre instalado ROS. Podemos descargar una imagen desde Docker Hub, Por ejemplo, podemos descargar la última imagen de ROS Melodic, corremos el siguiente comando en una terminal (es probable que estos comandos necesiten permisos de superusuario):
 
